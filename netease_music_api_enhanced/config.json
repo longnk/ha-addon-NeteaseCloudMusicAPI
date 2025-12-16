@@ -1,0 +1,20 @@
+{
+  "name": "Netease CloudMusic API Enhanced",
+  "version": "0.0.1",
+  "slug": "netease_music_api_enhanced",
+  "description": "网易云音乐 API Enhanced",
+  "url": "https://github.com/longnk/ha-addon-NeteaseCloudMusicAPI/tree/main/netease_music_api_enhanced",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": false,
+  "ingress_port": 3000,
+  "init": false,
+  "host_network": false,
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "webui": "http://[HOST]:[PORT:3000]",
+  "arch": ["amd64", "aarch64", "armv7"],
+  "options": {},
+  "schema": {}
+}
